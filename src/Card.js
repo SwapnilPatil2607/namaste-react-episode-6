@@ -3,11 +3,9 @@ import { CDN_FOR_IMAGE } from "../utils/constant";
 export const Card = ({ resData }) => {
   const { info } = resData;
   const { name, cuisines, avgRatingString } = info;
-  const styleCard = {
-    borderRadius: "10px",
-  };
+
   return (
-    <div className="res-card" style={styleCard}>
+    <div className="res-card">
       <img src={CDN_FOR_IMAGE + info.cloudinaryImageId} />
       <h3>{name}</h3>
       <p>cusines: {cuisines.join(",")}</p>

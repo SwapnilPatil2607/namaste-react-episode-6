@@ -1,4 +1,4 @@
-# Namaste React episode 4
+# Namaste React episode 6
 
 # key points
 
